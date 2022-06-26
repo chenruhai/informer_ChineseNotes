@@ -28,6 +28,11 @@ conda env create -f torch_lts.yaml
 ## FAQ
 If you run into a problem like `RuntimeError: The size of tensor a (98) must match the size of tensor b (96) at non-singleton dimension 1`, you can check torch version or modify code about `Conv1d` of `TokenEmbedding` in `models/embed.py` as the way of circular padding mode in Conv1d changed in different torch versions.
 
+## Interesting and useful tool recommendations
+* [streamlit](https://awesome-streamlit.org/)
+
+
+
 ## Thank you
 * Thanks to [@zhouhaoyi](https://github.com/zhouhaoyi) open source algorithm paper and code repository.
 
@@ -40,8 +45,6 @@ If you run into a problem like `RuntimeError: The size of tensor a (98) must mat
 ## To contact me
 * e-mail：ruhai.chen@foxmail.com
 
-## Interesting and useful tool recommendations
-* [streamlit](https://awesome-streamlit.org/)
 
 
 
