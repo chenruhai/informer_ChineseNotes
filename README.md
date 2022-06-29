@@ -56,6 +56,22 @@ Create virtual environments and install dependencies using conda and YAMl files 
 conda env create -f torch_lts.yaml
 ```
 
+### Method 3
+Execute the following commands directly in your environment to install:
+```
+conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch-lts -c conda-forge
+
+pip install numpy == 1.19.4
+pip install pyecharts
+pip install xlrd
+pip install openpyxl
+pip install matplotlib
+pip install pandas
+
+```
+
+
+
 ### Import virtual environment in PyCharm:
 When selecting the interpreter, do not create a new virtual environment and use the virtual environment you already created:
 ![image](https://user-images.githubusercontent.com/47185449/176341835-506057a2-479b-414b-a88b-45ff0f1650db.png)
