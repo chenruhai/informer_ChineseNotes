@@ -7,6 +7,14 @@
 [informer_ChineseNotes](https://github.com/chenruhai/informer_ChineseNotes) has added Chinese annotations and some visual additions to the [informer2020](https://github.com/zhouhaoyi/Informer2020) project.
 
 
+## 使用场景
+* 时间序列预测
+* 股票预测
+* 市场预测
+* 电力预测
+* 天气预测
+* ....
+
 ## Requirements
 - torch_lts
 - pyecharts
