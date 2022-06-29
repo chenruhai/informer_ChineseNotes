@@ -27,29 +27,29 @@ conda env create -f torch_lts.yaml
 
 ## Quick Configuration Environment
 
-### 方法一：
-先在Anaconda Powershell Prompt (anaconda3)中创建虚拟环境：
+### Method 1：
+Create a virtual environment in Anaconda Powershell Prompt (Anaconda3) :
 ```
 conda create -n torch_lts python=3.7
 ```
-然后进入该虚拟环境：
+Then enter the virtual environment:
 ```
 activate torch_lts
 ```
-最后使用requirements.txt文件安装环境依赖包：
+Finally, install the environment dependency package using the requirements. TXT file:
 ```
 pip install -r requirements.txt
 
 ```
 
-### 方法二
-直接在Anaconda Powershell Prompt (anaconda3)中使用conda以及yaml文件创建虚拟环境以及安装依赖包：
+### Method 2
+Create virtual environments and install dependencies using conda and YAMl files directly from Anaconda Powershell Prompt (Anaconda3) :
 ```
 conda env create -f torch_lts.yaml
 ```
 
-### 在PyCharm中导入虚拟环境：
-一定要注意在选择解释器的时候不要再新建虚拟环境了，直接使用已经创建好的虚拟环境：
+### Import virtual environment in PyCharm:
+When selecting the interpreter, do not create a new virtual environment and use the virtual environment you already created:
 ![image](https://user-images.githubusercontent.com/47185449/176341835-506057a2-479b-414b-a88b-45ff0f1650db.png)
 
 
