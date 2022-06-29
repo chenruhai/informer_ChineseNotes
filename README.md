@@ -25,12 +25,40 @@ or
 conda env create -f torch_lts.yaml
 ```
 
+## Requirements
+
 ## FAQ
 If you run into a problem like `RuntimeError: The size of tensor a (98) must match the size of tensor b (96) at non-singleton dimension 1`, you can check torch version or modify code about `Conv1d` of `TokenEmbedding` in `models/embed.py` as the way of circular padding mode in Conv1d changed in different torch versions.
 
 ## Interesting and useful tool recommendations
 * [streamlit](https://awesome-streamlit.org/)
 
+## Quick Configuration Environment
+
+### 方法一：
+先在Anaconda Powershell Prompt (anaconda3)中创建虚拟环境：
+```
+conda create -n torch_lts python=3.7
+```
+然后进入该虚拟环境：
+```
+activate torch_lts
+```
+最后使用requirements.txt文件安装环境依赖包：
+```
+pip install -r requirements.txt
+
+```
+
+### 方法二
+直接在Anaconda Powershell Prompt (anaconda3)中使用conda以及yaml文件创建虚拟环境以及安装依赖包：
+```
+conda env create -f torch_lts.yaml
+```
+
+### 在PyCharm中导入虚拟环境：
+一定要注意在选择解释器的时候不要再新建虚拟环境了，直接使用已经创建好的虚拟环境：
+![image](https://user-images.githubusercontent.com/47185449/176341835-506057a2-479b-414b-a88b-45ff0f1650db.png)
 
 
 ## Thank you
